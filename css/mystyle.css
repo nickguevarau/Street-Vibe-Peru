@@ -1,0 +1,306 @@
+/* estilos en selector para etiquetas */
+body{
+    background-color: white ;
+    padding-top: 110px;
+}
+
+   
+
+
+h1{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: bold;
+    color: rgb(241, 241, 230);
+    text-align: center;
+}
+h2{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: bold;
+    color: rgb(241, 241, 230);
+    text-align: center;
+}
+
+h3{
+    font-family: "Montserrat" , sans-serif;
+    font-style: bold;
+    font-weight: 500;
+    color:#1b1919;
+    text-align: center;
+}
+h4{
+    font-family: "Opens Sans", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    text-align: center;
+
+}
+
+ul{
+    font-family: "Opens Sans", sans-serif;
+    font-weight: 200;
+    color:black;
+
+
+}
+
+p{
+    font-family: "Opens Sans", sans-serif;
+    font-weight: 50;
+    font-style: normal;
+    text-align: center;
+}
+
+
+/* estilos en selector para clases  */
+.filas-principales{
+    background-color: #1b1919;
+    padding: 5px;
+    height: auto;
+
+}
+.filas-principales2{
+    background-color: #1b1919;
+    padding: 15px;
+    
+
+}
+.filas-secundarias{
+    background-color: #E3D22D;
+    padding: 15px;
+
+}
+
+
+.navbar-brand {
+    height: 50px !important;
+    width: auto;
+}
+
+.carousel-container-nick {
+    max-width: 900px;
+    margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+.nav-link2{
+    background-color: #000000 !important;
+}
+
+.navbar-estilo-nick {
+    font-family: "Montserrat", sans-serif !important;
+    font-weight: 300 !important;
+    font-style: normal;
+    color: rgb(241, 241, 230) !important;
+    display: inline-block;  
+    padding: 5px 10px;      
+    transition: color 0.3s, box-shadow 0.3s, background-color 0.3s;
+}
+
+.navbar-estilo-nick:hover {
+    color: white !important;
+    box-shadow: 0 0 15px #E3D22D !important;
+    border-radius: 5px;
+}
+
+.navbar-estilo-nick.dropdown-item {
+    font-family: "Montserrat", sans-serif !important;
+    font-weight: 300 !important;
+    color: #1b1919 !important;
+    padding: 5px 15px;
+}
+
+.navbar-estilo-nick.dropdown-item:hover {
+    color: white !important;
+    background-color: #E3D22D !important;
+    box-shadow: none;
+}
+.button-buscar {
+    border: 2px solid #E3D22D;      
+    color: #E3D22D;                  
+    background-color: transparent;   
+    transition: all 0.3s;
+}
+
+.button-buscar:hover {
+    background-color: #FFD700;       
+    color: white !important;
+    box-shadow: 0 0 15px #E3D22D !important;
+    border-radius: 5px;                  
+}
+.card {
+    height: 100%;
+    margin-bottom: 20px;
+  
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+.card-text {
+    flex-grow: 1;
+}
+
+.card img {
+    height: 250px; 
+    width: 100%;
+    object-fit: cover; 
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+.list-group-item {
+    font-size: 0.9rem;
+    padding: 6px 10px;
+}
+.carousel-item {
+    padding: 20px 0;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.btn-whatsapp {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25D366;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+    z-index: 1000;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-whatsapp img {
+    width: 34px !important;
+    margin-top: 12px !important;
+    filter: invert(1); /* si el icono es oscuro */
+}
+
+.btn-whatsapp:hover {
+    transform: scale(1.1);
+    background-color: #20ba5a;
+}
+
+.fig-caption {
+    padding: 25px;
+    margin-bottom: 20px;
+
+}
+
+.promo-img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.promo-img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+.acordeon-nick-contenido {
+    width: 100%;
+} 
+
+.accordion-item {
+    background-color: #1b1919;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.accordion-button {
+    background-color: #333333; 
+    color: white;
+    font-weight: bold;
+    box-shadow: none;
+}
+.accordion-button:not(.collapsed) {
+    background-color: #000000 !important; 
+    background-image: none !important; 
+    color: #FFD700 !important;
+    box-shadow: 0 4px 15px rgba(227, 210, 42, 0.6) !important; 
+    border-radius: 5px;
+}
+.accordion-body {
+    background-color: white !important; 
+    
+
+}
+
+/*CLASES PARA EL FOOTER*/
+
+.texto1{
+    font-family: "Montserrat" , sans-serif;
+    font-style: bold;
+    font-weight: 500;
+    font-size: 25px;
+    color:white;
+    padding: 10px;
+}
+
+.texto2{
+    font-family: "Montserrat" , sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 12px;
+    color:white;
+}
+.texto2:hover {
+    text-decoration: underline;
+    color: #FFD70e; 
+}
+.texto3{
+    font-family: "Montserrat" , sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    color:black;
+}
+.texto4{
+    font-family: "Montserrat" , sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 12px;
+    color:white !important;
+  
+}
+.logos-footer {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+}
+.logos-footer2{
+    max-width: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+.logos-footer3 {
+    width: 20px;      
+    height: 20px;    
+    object-fit: contain; 
+    margin: 0 5px;    
+}
+.filas-footer{
+    padding: 5px;
+    height: 100px;
+
+}
+#collapseGroup .collapse {
+  position: relative !important;
+  overflow: visible !important;
+}
